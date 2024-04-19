@@ -1,0 +1,126 @@
+/* Nav link */
+body {
+    text-align: center;
+    background-color: lightpink;
+  }
+  a {
+    display: block;
+    margin: 10px;
+  }
+  
+  a {
+    text-decoration: underline;
+  }
+  
+  a:link {
+    color: black;
+  }
+  
+  a:visited {
+    color: black;
+  }
+  
+  a:hover {
+    color: black;
+  }
+  
+  a:active {
+    color: black;
+  }
+  
+  
+  
+  /* Checker board */
+  
+  .black {
+    background-color: black;
+  }
+  
+  .white {
+    background-color: red;
+    border: 1px solid black;
+  }
+  
+  .board {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(8, 100px);
+    grid-template-rows: repeat(8, 100px);
+  }
+  
+  
+  
+  /* Flag */
+  
+  .flag {
+    border-spacing: 0;
+    margin: auto;
+  }
+  
+  .flag td {
+    width: 1000px;;
+    height: 25px;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .whiteStrip {
+    background-color: white;
+  }
+  
+  .stars {
+    position: absolute;
+    display: flex;
+    left: 20.140%;
+  }
+  
+  /* Grid */
+  
+  .Grid {
+    display: grid;
+    grid-template-columns: repeat(4, 5fr);
+    grid-template-rows: auto auto;
+    gap: 5%;
+  }
+  
+  
+  .Grid > div {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 0px 18px 32px rgba(0, 0, 0, 0.1);
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    text-decoration: underline;
+  }
+  
+  .price {
+    margin-top: 5px;
+    font-weight: bold;
+    color: blue; 
+  }
+  
+  .description {
+    margin-top: 5px;
+    color: darkgray;
+  }
+  
+  /* button {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: lightblue;
+    font-weight: bold;
+  } */
